@@ -16,6 +16,7 @@ interface MeetingCardProps {
   buttonText?: string;
   handleClick: () => void;
   link: string;
+  showAdditionalButton?: boolean;
 }
 
 const MeetingCard = ({

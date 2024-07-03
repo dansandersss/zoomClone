@@ -82,6 +82,15 @@
   filter: invert(1);
 }
 
+.cl-navbarButton,
+.cl-badge {
+  color: rgb(255, 255, 255);
+}
+
+.cl-userButtonPopoverActionButton:hover {
+  color: rgb(170, 170, 170);
+}
+
 /* =============================== */
 
 @layer utilities {
